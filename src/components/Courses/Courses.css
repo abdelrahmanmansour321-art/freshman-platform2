@@ -14,7 +14,7 @@
 
 
  .portofoli-item{
-     width: 32em;
+     width: 34em;
     margin: 40px auto;
     background: #1b1b7b;
     padding: 20px;
@@ -31,6 +31,8 @@
     width: 100%;
     max-height: 250px;
     min-height: 250px;
+
+  
   
     height: auto;
     
@@ -67,11 +69,19 @@
         margin: 30px auto;
     }
      .portofoli-item{
-        width: 330px;
+        width: 350px;
        
     }
    
 }
+
+@media (max-width:380px){
+    .cources-container{
+        margin: 30px auto;
+    }
+     .portofoli-item{
+        width: 320px;
+     }}
 
 /* .cources-container{
    display: flex;

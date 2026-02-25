@@ -16,7 +16,7 @@ function Conn_comhis() {
                                  {/* titel */}
                                             <div className='content'>
                                     <h3>Sheets & Lectures</h3>
-                                         <h5>Dr: Maha Ahmad</h5>
+                                         <h5>Dr: Ahmad abdel Hamid</h5>
                                        {/* buttons */}
                                     <div className='portfolio-item-button'>
                                         <Link to={"/lec-comhis"}> <button className='button'>inter cource</button></Link>
@@ -32,7 +32,7 @@ function Conn_comhis() {
                                             {/* titel */}
                                             <div className='content'>
                                                 <h3>Important Links</h3>
-                                                <h5>Dr: Maha Ahmad</h5>
+                                                <h5>Dr: Ahmad abdel Hamid</h5>
                                                 {/* buttons */}
                                                 <div className='portfolio-item-button'>
                                                     <Link to={"/link-comlaw"}> <button className='button'>inter cource</button></Link>
@@ -49,7 +49,7 @@ function Conn_comhis() {
                                             {/* titel */}
                                             <div className='content'>
                                                 <h3>Summrys</h3>
-                                                <h5>Dr: Maha Ahmad</h5>
+                                                <h5>Dr: Ahmad abdel Hamid</h5>
                                                 {/* buttons */}
                                                 <div className='portfolio-item-button'>
                                                     <Link to={"/sum"}><button className='button'>inter cource</button></Link>

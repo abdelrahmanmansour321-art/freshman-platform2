@@ -19,8 +19,8 @@ function Services() {
                 <div className='info'>
                  <FaRegListAlt className='serv-icon'/>
                 <h3 >sheets & boards</h3>
-                  <p className='hh'> here you can have all of the sheets and 
-                    boards in an easy orgnaized way </p>
+                  <p className='text'> Master Your Study Materials Access all 
+                    your sheets and boards in one perfectly organized workspace</p>
                     </div>
             </div>
 
@@ -31,8 +31,9 @@ function Services() {
                 <IoIosNotifications className='serv-icon' />
                 <div className='info'>
                         <h3>notifeactions</h3>
-                        <p class="text">once you have regesterd your account we
-                            will notify you with every up coming quize or sheet</p>
+                        <p class="text">Instant Updates
+
+Register now to receive instant notifications. We'll keep you posted on every new sheet and quiz</p>
                 </div>
             </div>
 

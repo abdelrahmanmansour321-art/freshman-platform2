@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from "../../../assets/tech.jpeg"
 import img2 from "../../../assets/corces.jpeg"
-import img3 from "../../../assets/link.jpeg"
+import img3 from "../../../assets/math-img.jpeg"
 import img4 from '../../../assets/img4.jpeg'
 import { Link } from 'react-router-dom'
 

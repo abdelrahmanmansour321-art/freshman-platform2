@@ -2,6 +2,7 @@ import React from 'react'
 import img from '../../assets/Working-rafiki.svg'
 import { FaUniversity } from "react-icons/fa";
 import { PiStudentBold } from "react-icons/pi";
+import { GrAction } from "react-icons/gr";
 import './About.css'
 
 function About() {

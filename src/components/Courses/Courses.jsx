@@ -78,7 +78,7 @@ function Courses() {
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                 <Link to={"conn-dismath"}> <button className='button'>inter cource</button></Link>
+                 <Link to={"/conn-dismath"}> <button className='button'>inter cource</button></Link>
                 </div>
             </div>
             </article>
@@ -111,13 +111,13 @@ function Courses() {
                 </div>
             {/* titel */}
             <div className='content'>
-                <h3>Computer build</h3>
-                <h5>Dr: Mohamed Salah</h5>
+                <h3>Computer Architecture</h3>
+                <h5>Dr: Mohamed Ali</h5>
                 
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                  <Link to={"conn-combuild"}> <button className='button'>inter cource</button></Link>
+                  <Link to={"/conn-combuild"}> <button className='button'>inter cource</button></Link>
                 </div>
             </div>
             </article>
@@ -131,11 +131,11 @@ function Courses() {
             {/* titel */}
             <div className='content'>
                 <h3>Computer History</h3>
-                <h5>Dr: Maha Ahmed</h5>
+                <h5>Dr: Ahmad abdel hamid</h5>
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                   <Link to={"conn-comhis"}><button className='button'>inter cource</button></Link> 
+                   <Link to={"/conn-comhis"}><button className='button'>inter cource</button></Link> 
                 </div>
             </div>
             </article>

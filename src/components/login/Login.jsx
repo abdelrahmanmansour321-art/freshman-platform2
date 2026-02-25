@@ -1,13 +1,8 @@
 import React from 'react'
 import './login.css'
-import { MdAlternateEmail } from "react-icons/md"
-import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import axios from "axios"
 import { useState } from 'react';
-import { SiAwesomelists } from 'react-icons/si';
-
-
 
 
 function Login() {
@@ -27,7 +22,9 @@ const [username,setUsername]= useState("")
     {username:username,
       email:email
     }
+
   )}catch(err){
+      alert(err)
       console.log(err)
    }}
 
@@ -46,10 +43,10 @@ const [username,setUsername]= useState("")
                     <input type="text" placeholder='Email'
                     onChange={(e)=> setEmail(e.target.value)}/>
                   
-                    
+                     <Link to={"/user"}>
                     <button className='button-log'
                      onClick={sendData}>submit</button>
-                  
+                   </Link> 
                     </div>
                 </div>
     </section>
@@ -57,4 +54,4 @@ const [username,setUsername]= useState("")
 }
 
 export default Login
-{/* <Link to={"/user"}>  </Link> */}
+ 

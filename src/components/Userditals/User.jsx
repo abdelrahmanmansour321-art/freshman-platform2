@@ -14,7 +14,7 @@ function User() {
 
    <div className='container-u'>
      
-      <h2>thank you for loging in </h2>
+      <h2>thank you for logging in </h2>
       <h4>now you will be updated with <br />all  
      of the new information</h4>
       

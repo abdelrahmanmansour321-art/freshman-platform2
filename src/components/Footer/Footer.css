@@ -66,6 +66,12 @@ footer a{
 }
 @media (max-width:600px){
     footer{
-        margin-top:150rem ;
+        margin-top:155rem ;
+    }
+}
+
+@media (max-width:380px){
+    footer{
+        margin-top:165rem ;
     }
 }

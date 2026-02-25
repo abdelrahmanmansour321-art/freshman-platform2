@@ -1,6 +1,6 @@
 import React, { use } from 'react'
 // import './lec.css'
-import img1 from '../../../assets/tech.jpeg'
+import img1 from '../../../assets/img6.jpeg'
 import { MdDownload } from "react-icons/md";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { useState } from 'react';
@@ -22,7 +22,7 @@ function Lec_comhis() {
             </div>
                <div className='top'>
                 <h2>
-                Progamming fundmetals
+                Computer History
                 </h2>
                 </div>
            

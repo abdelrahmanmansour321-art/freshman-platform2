@@ -25,7 +25,7 @@ import lec_img_2_3 from "../../../assets/lec-img/math2/math2-lec/week2/math2 lec
 import lec_img_2_4 from "../../../assets/lec-img/math2/math2-lec/week2/math2 lec 2-4.jpeg"
 import lec_img_2_5 from "../../../assets/lec-img/math2/math2-lec/week2/math2 lec 2-5.jpeg"
 import lec_img_2_6 from "../../../assets/lec-img/math2/math2-lec/week2/math2 lec 2-6.jpeg"
-
+import Sec_img_2_1 from "../../../assets/lec-img/math2/math2-sec/sec 2-1.jpeg"
 function Lec_math2() {
  const [active,setActive]= useState(false)
    const [active1,setActive1]=useState(false)
@@ -155,9 +155,15 @@ function Lec_math2() {
                        <MdDownload /></a></span>
                     </li>
  
-                    <li className='lastt'>
+                    <li >
                      <a href={lec_img_2_6} target='blank'>lec-img 6</a>
                      <span  className='arrow'><a href={lec_img_2_6} download className='dicon'>
+                       <MdDownload /></a></span>
+                    </li>
+                    
+                    <li className='lastt'>
+                     <a href={Sec_img_2_1} target='blank'>sec-img 1</a>
+                     <span  className='arrow'><a href={Sec_img_2_1} download className='dicon'>
                        <MdDownload /></a></span>
                     </li>
  

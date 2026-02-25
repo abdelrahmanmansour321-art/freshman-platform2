@@ -14,7 +14,7 @@ function conn_combuild() {
                            {/* titel */}
                                       <div className='content'>
                               <h3>Sheets & Lectures</h3>
-                                   <h5>Dr: Mohamed salah</h5>
+                                   <h5>Dr: Mohamed Ali</h5>
                                  {/* buttons */}
                               <div className='portfolio-item-button'>
                                   <Link to={"/lec-combuild"}> <button className='button'>inter cource</button></Link>
@@ -30,7 +30,7 @@ function conn_combuild() {
                                       {/* titel */}
                                       <div className='content'>
                                           <h3>Important Links</h3>
-                                          <h5>Dr: Mohamed salah</h5>
+                                          <h5>Dr: Mohamed Ali</h5>
                                           {/* buttons */}
                                           <div className='portfolio-item-button'>
                                               <Link to={"/link-comlaw"}> <button className='button'>inter cource</button></Link>
@@ -46,7 +46,7 @@ function conn_combuild() {
                                       {/* titel */}
                                       <div className='content'>
                                           <h3>Summrys</h3>
-                                          <h5>Dr: Mohamed salah</h5>
+                                          <h5>Dr: Mohamed Ali</h5>
                                           {/* buttons */}
                                           <div className='portfolio-item-button'>
                                               <Link to={"/sum"}><button className='button'>inter cource</button></Link>

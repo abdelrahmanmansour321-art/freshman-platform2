@@ -27,6 +27,7 @@ import Lec_comhis from "./components/lec&sh/comhis-info/Lec-comhis"
 import Link_math2 from "./components/lec&sh/math2-info/Link-math2"
 import Link_dismath from "./components/lec&sh/dismath_info/Link-dismath"
 import Link_comlaw from "./components/lec&sh/comlaw-info/Link-comlaw"
+import Login2 from './components/login/Login2'
 
 function App() {
  
