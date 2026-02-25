@@ -9,9 +9,13 @@ import { SiAwesomelists } from 'react-icons/si';
 
 
 
+
 function Login() {
 
-  const API_URL=import.meta.env.VITE_API_BASE_URL
+
+  const API_URL=import.meta.env.VITE_API_BASE_URL ||"https://endpoints-api-tawny.vercel.app"
+
+  console.log(API_URL)
 
 const [username,setUsername]= useState("")
   const [email,setEmail]=useState("")
@@ -42,10 +46,10 @@ const [username,setUsername]= useState("")
                     <input type="text" placeholder='Email'
                     onChange={(e)=> setEmail(e.target.value)}/>
                   
-                    <Link to={"/user"}>
+                    
                     <button className='button-log'
                      onClick={sendData}>submit</button>
-                    </Link>
+                  
                     </div>
                 </div>
     </section>
@@ -53,3 +57,4 @@ const [username,setUsername]= useState("")
 }
 
 export default Login
+{/* <Link to={"/user"}>  </Link> */}

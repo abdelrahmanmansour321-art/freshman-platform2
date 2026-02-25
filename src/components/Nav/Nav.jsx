@@ -13,7 +13,7 @@ function Nav() {
   return (
     <nav>
 
-       <Link to={"/"} className='active'> <IoMdHome /></Link>
+       <Link to={"/freshman-platform2"} className='active'> <IoMdHome /></Link>
         
       <a href="#services"><MdMiscellaneousServices /></a>
       <a href="#about" ><FaGitAlt /></a>

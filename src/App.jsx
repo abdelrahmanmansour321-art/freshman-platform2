@@ -39,11 +39,11 @@ function App() {
       
     <Routes>
 
-      <Route path="/" element={
+      <Route path="/freshman-platform2" element={
         <>
         <Home />
        
-        <Services />
+        {/* <Services /> */}
         <About />
         <Nav />
         <Courses />
