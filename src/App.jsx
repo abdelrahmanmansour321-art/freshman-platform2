@@ -43,7 +43,7 @@ function App() {
         <>
         <Home />
        
-        {/* <Services /> */}
+        <Services />
         <About />
         <Nav />
         <Courses />
