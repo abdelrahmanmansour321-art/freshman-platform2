@@ -1,0 +1,212 @@
+
+.cource-img{
+    border-radius: 20px;
+    width: 96%;
+    /* max-height: 250px;
+    min-height: 250px;
+   */
+    height: auto;
+    
+    display: flex;
+    justify-self: center;
+    
+    margin-top: 5px;
+   
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+    font-size: 1.17rem;
+    color: #4db5ff;
+}
+
+.cource-img img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #1b1b7b;
+    border-radius: 10px;
+    
+}
+
+/* .dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.dtop{
+    background: #151584;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+   cursor: pointer;
+    gap: 20px;
+    padding: 4px 20px;
+    margin: 10px;
+}
+
+.dweek{
+     background: #151584;
+    border-radius: 10px ;
+    display: none;
+    align-items: center;   
+    justify-content: space-between;
+   cursor: pointer;
+    gap: 20px;
+    padding: 4px 15px;
+    margin: 5px;
+    
+}
+
+.menu2{
+   display: none;
+   background-color: #151584;
+     
+}
+
+.active{
+    display: flex;
+
+
+}
+
+.arrow{
+    font-size: 20px;
+    padding-top: 5px;
+}
+ */
+.drop{
+    display: flex;
+    justify-content: center;
+   
+     width: 100%;
+    height: 100vh;
+    
+ }
+
+ .wrap{
+    margin: 20px;
+ }
+
+
+ .month{
+    background: #1b1b7b;
+    /* width: 70%; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    padding: 8px 30px;
+    width: 300px;
+    cursor: pointer;
+ }
+
+ .month span{
+    font-size: 1.4rem;
+    margin-top: 5px;
+   
+ }
+ .weeks{
+    display: none;
+    flex-direction: column;
+
+ }
+.week{
+    background: #1b1b7b;
+    display: flex;
+    margin:4px;
+     border-radius: 2px;
+    
+    border-bottom: 2px solid ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.week-cont{
+    background:#1b1b7b;
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+    width: 15rem;
+    align-self: center;
+    padding-bottom: 10px;
+    display: none;
+    /* margin-bottom: 6rem; */
+}
+
+.week-cont li{
+    border-bottom: 2px solid ;
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    font-size: 1.2rem;
+    align-items: center;
+    
+}
+
+.week-cont .last{
+    border: none;
+    margin-top: 4px;
+}
+
+.week-cont .arrow{
+    margin-top: 2px;
+    font-size: 1.3rem ;
+}
+.active{
+    display: flex;
+}
+.active1{
+    display: flex;
+}
+
+.arrow{
+    font-size: 1.3rem;
+}
+
+.week-cont .sheet{
+    color: brown;
+  
+}
+
+
+
+
+
+
+
+.i{
+    font-size: 1.07rem;
+}
+
+.lastt{
+    border: none;
+    color: #1b1b7b;
+}
+
+@media (max-width:1200px){
+    .cource-img{
+        /* height: 30rem; */
+        width: 90%;
+       
+    }
+}
+.pp{
+    margin-bottom: 100px;
+   }
+
+   .uu{
+    margin-bottom: 100px;
+   }

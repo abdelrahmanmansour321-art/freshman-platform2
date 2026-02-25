@@ -1,0 +1,157 @@
+/* .home{
+    height: 100vh;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.home-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.btn-wrap{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+
+.home-container h4{
+        font-size: 1.1rem;
+        color: #d6cbcb;
+}
+
+.img{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(var(--color-primary) ,transparent);
+    border-radius: 20px ;
+    margin: 40px auto;
+   
+}
+
+.Home-icons{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 50px;
+    position: absolute;
+    gap: 0,8;
+    align-items: center;
+}
+
+.Home-icons ::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.Home-icons a{
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1024){
+    .home{
+        height: 70vh;
+    }
+    /* .Home-icons{
+        display: none;
+    } */
+/* }
+
+@media (max-width:600px){
+    .home{
+        height: auto;
+        padding-top: 3rem;
+    }
+
+    .Home-icons{
+        display: none;
+    }
+    .home-container{
+        max-width: 100%;
+        width: 300px;
+        height: 720px;
+    }
+} */ 
+
+.home{
+    height: 100vh;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.home-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.btn-wrap{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+
+.home-container h4{
+        font-size: 1.1rem;
+        color: #d6cbcb;
+}
+
+.img{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(var(--color-primary) ,transparent);
+    border-radius: 20px ;
+    margin: 40px auto;
+   
+}
+
+.Home-icons{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 50px;
+    position: absolute;
+    gap: 0,8;
+    align-items: center;
+}
+
+.Home-icons ::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.Home-icons a{
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1024px){
+    .home{
+        height: 60vh;
+    }
+    .Home-icons{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .home{
+        height: auto;
+        padding-top: 3rem;
+    }
+
+    .Home-icons{
+        display: none;
+    }
+    .home-container{
+        max-width: 100%;
+        width: 300px;
+        height: 720px;
+    }
+}
