@@ -4,6 +4,10 @@ import img1 from '../../../assets/img6.jpeg'
 import { MdDownload } from "react-icons/md";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { useState } from 'react';
+//second week
+import sec_2_1  from "../../../assets/lec-img/comhis/week 2/sec 2-1.jpeg" 
+import sec_2_2 from "../../../assets/lec-img/comhis/week 2/sec 2-2.jpeg" 
+import sec_2_3 from "../../../assets/lec-img/comhis/week 2/sec 2-3jpeg.jpeg" 
 
 function Lec_comhis() {
    const [active,setActive]= useState(false)
@@ -67,31 +71,31 @@ function Lec_comhis() {
                  {/* ////////////////////  second week*/}
       
                   <div className='week' onClick={()=>setActive2(!active2)}>
-                  <h3>second week week</h3>
+                  <h3>second week</h3>
                   <span className='arrow'><IoIosArrowDropdown /></span>
                   </div>
       
                      <div className={active2? "week-cont active1":"week-cont"}>
-                      {/* <ul>
+                      <ul>
                          <li>
-                          <a href={img1}>first img</a>
-                          <span  className='arrow'><a href={img1} download className='dicon'>
+                          <a href={sec_2_1}>sec-img 1</a>
+                          <span  className='arrow'><a href={sec_2_1} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
       
                          <li>
-                          <a href={img1}>first img</a>
-                          <span className='arrow'><a href={img1} download className='dicon'>
+                          <a href={sec_2_2}>sec-img 2</a>
+                          <span className='arrow'><a href={sec_2_2} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
       
                          <li className='last'>
-                          <a href={img1}>first img</a>
-                          <span  className='arrow'><a href={img1} download className='dicon'>
+                          <a href={sec_2_3}>sec-img 3</a>
+                          <span  className='arrow'><a href={sec_2_3} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
                          
-                      </ul> */}
+                      </ul>
                     </div>
       
       

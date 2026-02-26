@@ -4,10 +4,16 @@ import img1 from '../../../assets/img4.jpeg'
 import { MdDownload } from "react-icons/md";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { useState } from 'react';
-import lec_img1 from "../../../assets/lec-img/dismath/dismath_lec/dismath lec 1-1.jpeg" 
-import lec_img2 from "../../../assets/lec-img/dismath/dismath_lec/dismath lec 1-2.jpeg" 
-
-
+// firstweek 
+import lec_img1 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 1/lec 1-1.jpeg" 
+import lec_img2 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 1/lec 1-2.jpeg" 
+import lec_img3 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 1/lec 1-2.jpeg" 
+import lec_img4 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 1/lec 1-2.jpeg" 
+//second week
+import lec_img2_1 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 2/lec 2-1.jpeg" 
+import lec_img2_2 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 2/lec 2-2.jpeg" 
+import lec_img2_3 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 2/lec 2-3.jpeg" 
+import lec_img2_4 from "../../../assets/lec-img/dismath/dismath_lec/dismath-week 2/lec 2-4.jpeg" 
 function Lec_dismath() {
   const [active,setActive]= useState(false)
      const [active1,setActive1]=useState(false)
@@ -53,9 +59,19 @@ function Lec_dismath() {
                       </li>
    
    
-                      <li className='last'>
+                      <li >
                        <a href={lec_img2} target='blank'>lec-img 2</a>
                        <span  className='arrow'><a href={lec_img2} download className='dicon'>
+                         <MdDownload /></a></span>
+                      </li>
+                      <li >
+                       <a href={lec_img3} target='blank'>lec-img 3</a>
+                       <span  className='arrow'><a href={lec_img3} download className='dicon'>
+                         <MdDownload /></a></span>
+                      </li>
+                      <li className='last'>
+                       <a href={lec_img4} target='blank'>lec-img 4 </a>
+                       <span  className='arrow'><a href={lec_img4} download className='dicon'>
                          <MdDownload /></a></span>
                       </li>
                       
@@ -65,31 +81,36 @@ function Lec_dismath() {
               {/* ////////////////////  second week*/}
    
                <div className='week' onClick={()=>setActive2(!active2)}>
-               <h3>second week week</h3>
+               <h3>second week</h3>
                <span className='arrow'><IoIosArrowDropdown /></span>
                </div>
    
                   <div className={active2? "week-cont active1":"week-cont"}>
-                   {/* <ul>
+                   <ul>
                       <li>
-                       <a href={img1}>first img</a>
-                       <span  className='arrow'><a href={img1} download className='dicon'>
+                       <a href={lec_img2_1}  target='blank'>lec-img 1</a>
+                       <span  className='arrow'><a href={lec_img2_1} download className='dicon'>
                          <MdDownload /></a></span>
                       </li>
    
                       <li>
-                       <a href={img1}>first img</a>
-                       <span className='arrow'><a href={img1} download className='dicon'>
+                       <a href={lec_img2_2} target='blank'>lec-img 2</a>
+                       <span className='arrow'><a href={lec_img2_2} download className='dicon'>
+                         <MdDownload /></a></span>
+                      </li>
+                      <li>
+                       <a href={lec_img2_3} target='blank'>lec-img 3</a>
+                       <span className='arrow'><a href={lec_img2_3} download className='dicon'>
                          <MdDownload /></a></span>
                       </li>
    
                       <li className='last'>
-                       <a href={img1}>first img</a>
-                       <span  className='arrow'><a href={img1} download className='dicon'>
+                       <a href={lec_img2_4} target='blank'>lec-img 4</a>
+                       <span  className='arrow'><a href={lec_img2_4} download className='dicon'>
                          <MdDownload /></a></span>
                       </li>
                       
-                   </ul> */}
+                   </ul>
                  </div>
    
    

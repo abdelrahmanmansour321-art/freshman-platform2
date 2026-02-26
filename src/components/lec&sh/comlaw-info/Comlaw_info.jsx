@@ -61,7 +61,7 @@ function comlaw_info() {
               {/* ////////////////////  second week*/}
    
                <div className='week' onClick={()=>setActive2(!active2)}>
-               <h3>second week week</h3>
+               <h3>second week</h3>
                <span className='arrow'><IoIosArrowDropdown /></span>
                </div>
    
