@@ -25,7 +25,7 @@ function Link_math2() {
                            </div>
                        {/* titel */}
                        <div className='content'>
-                           <h3>math 2 cource</h3>
+                           <h3>math 2 course</h3>
                            <h5>channel: Youssef refaat</h5>
                            {/* buttons */}
                            <div className='portfolio-item-button'>

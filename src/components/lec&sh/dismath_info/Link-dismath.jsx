@@ -24,7 +24,7 @@ function Link_dismath() {
                                  </div>
                              {/* titel */}
                              <div className='content'>
-                                 <h3>Discrete math cource</h3>
+                                 <h3>Discrete math course</h3>
                                  <h5>channel: spicy code</h5>
                                  {/* buttons */}
                                  <div className='portfolio-item-button'>

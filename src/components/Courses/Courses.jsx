@@ -17,8 +17,8 @@ function Courses() {
   return (
    <section className='cources' id='cources'>
     <div className='top-section' >
-            <h4> available cources</h4>
-            <h1>Cources</h1>
+            <h4> available courses</h4>
+            <h1>Courses</h1>
 
         <div className=' cources-container'>
 
@@ -38,7 +38,7 @@ function Courses() {
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                   <Link to={"/conn-math"}> <button className='button'>inter cource</button></Link>
+                   <Link to={"/conn-math"}> <button className='button'>inter course</button></Link>
                 </div>
             </div>
             </article>
@@ -56,7 +56,7 @@ function Courses() {
                 <h5>Dr: Faiza ahmed</h5>
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                    <Link to={'/conn-comlaw'}><button className='button'>inter cource</button></Link> 
+                    <Link to={'/conn-comlaw'}><button className='button'>inter course</button></Link> 
                 </div>
             </div>
             </article>
@@ -78,7 +78,7 @@ function Courses() {
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                 <Link to={"/conn-dismath"}> <button className='button'>inter cource</button></Link>
+                 <Link to={"/conn-dismath"}> <button className='button'>inter course</button></Link>
                 </div>
             </div>
             </article>
@@ -98,7 +98,7 @@ function Courses() {
                 {/* buttons */}
                 <div className='portfolio-item-button'>
                     <Link to={'/conn'}><button className='button'>
-                        inter cource</button></Link>
+                        inter course</button></Link>
                 </div>
             </div>
             </article>
@@ -117,7 +117,7 @@ function Courses() {
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                  <Link to={"/conn-combuild"}> <button className='button'>inter cource</button></Link>
+                  <Link to={"/conn-combuild"}> <button className='button'>inter course</button></Link>
                 </div>
             </div>
             </article>
@@ -135,7 +135,7 @@ function Courses() {
                 
                 {/* buttons */}
                 <div className='portfolio-item-button'>
-                   <Link to={"/conn-comhis"}><button className='button'>inter cource</button></Link> 
+                   <Link to={"/conn-comhis"}><button className='button'>inter course</button></Link> 
                 </div>
             </div>
             </article>

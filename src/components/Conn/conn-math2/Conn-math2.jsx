@@ -19,7 +19,7 @@ function Conn_math2() {
                       <h5>Dr: Ibrahim Abadi</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/lec-math2"}> <button className='button'>inter cource</button></Link>
+                          <Link to={"/lec-math2"}> <button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>
@@ -37,7 +37,7 @@ function Conn_math2() {
                       <h5>Dr: Ibrahim Abadi</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/link-math2"}> <button className='button'>inter cource</button></Link>
+                          <Link to={"/link-math2"}> <button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>
@@ -53,7 +53,7 @@ function Conn_math2() {
                       <h5>Dr: Ibrahim Abadi</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/sum"}><button className='button'>inter cource</button></Link>
+                          <Link to={"/sum"}><button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>

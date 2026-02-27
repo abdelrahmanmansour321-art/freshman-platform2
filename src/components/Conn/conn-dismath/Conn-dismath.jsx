@@ -17,7 +17,7 @@ function Conn_dismath() {
                                     <h5>Dr: ibrahim Abaddi</h5>
                                     {/* buttons */}
                                     <div className='portfolio-item-button'>
-                                        <Link to={"/lec-dismath"}> <button className='button'>inter cource</button></Link>
+                                        <Link to={"/lec-dismath"}> <button className='button'>inter course</button></Link>
                                     </div>
                                 </div>
                                 </article>
@@ -33,7 +33,7 @@ function Conn_dismath() {
                                     <h5>Dr: ibrahim Abaddi</h5>
                                     {/* buttons */}
                                     <div className='portfolio-item-button'>
-                                        <Link to={"/link-dismath"}> <button className='button'>inter cource</button></Link>
+                                        <Link to={"/link-dismath"}> <button className='button'>inter course</button></Link>
                                     </div>
                                 </div>
                                 </article>
@@ -50,7 +50,7 @@ function Conn_dismath() {
                                     <h5>Dr: ibrahim Abaddi</h5>
                                     {/* buttons */}
                                     <div className='portfolio-item-button'>
-                                        <Link to={"/sum"}><button className='button'>inter cource</button></Link>
+                                        <Link to={"/sum"}><button className='button'>inter course</button></Link>
                                     </div>
                                 </div>
                                 </article>

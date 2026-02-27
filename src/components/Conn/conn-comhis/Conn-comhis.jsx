@@ -19,7 +19,7 @@ function Conn_comhis() {
                                          <h5>Dr: Ahmad abdel Hamid</h5>
                                        {/* buttons */}
                                     <div className='portfolio-item-button'>
-                                        <Link to={"/lec-comhis"}> <button className='button'>inter cource</button></Link>
+                                        <Link to={"/lec-comhis"}> <button className='button'>inter course</button></Link>
                                </div>
                                             </div>
                                             </article>
@@ -35,7 +35,7 @@ function Conn_comhis() {
                                                 <h5>Dr: Ahmad abdel Hamid</h5>
                                                 {/* buttons */}
                                                 <div className='portfolio-item-button'>
-                                                    <Link to={"/link-comlaw"}> <button className='button'>inter cource</button></Link>
+                                                    <Link to={"/link-comlaw"}> <button className='button'>inter course</button></Link>
                                                 </div>
                                             </div>
                                             </article>
@@ -52,7 +52,7 @@ function Conn_comhis() {
                                                 <h5>Dr: Ahmad abdel Hamid</h5>
                                                 {/* buttons */}
                                                 <div className='portfolio-item-button'>
-                                                    <Link to={"/sum"}><button className='button'>inter cource</button></Link>
+                                                    <Link to={"/sum"}><button className='button'>inter course</button></Link>
                                                 </div>
                                             </div>
                                             </article>

@@ -23,7 +23,7 @@ function Link() {
                                  </div>
                              {/* titel */}
                              <div className='content'>
-                                 <h3> Cpp  cource</h3>
+                                 <h3> Cpp  course</h3>
                                  <h5>channel: Elzero web school</h5>
                                  {/* buttons */}
                                  <div className='portfolio-item-button'>

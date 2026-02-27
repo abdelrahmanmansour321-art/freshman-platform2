@@ -24,7 +24,7 @@ function Conn() {
                       <h5>Dr: Yasser fouad</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/lec"}> <button className='button'>inter cource</button></Link>
+                          <Link to={"/lec"}> <button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>
@@ -40,7 +40,7 @@ function Conn() {
                       <h5>Dr: Yasser fouad</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/link"}> <button className='button'>inter cource</button></Link>
+                          <Link to={"/link"}> <button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>
@@ -57,7 +57,7 @@ function Conn() {
                       <h5>Dr: Yasser fouad</h5>
                       {/* buttons */}
                       <div className='portfolio-item-button'>
-                          <Link to={"/sum"}><button className='button'>inter cource</button></Link>
+                          <Link to={"/sum"}><button className='button'>inter course</button></Link>
                       </div>
                   </div>
                   </article>

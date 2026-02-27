@@ -78,19 +78,19 @@ function Lec_comhis() {
                      <div className={active2? "week-cont active1":"week-cont"}>
                       <ul>
                          <li>
-                          <a href={sec_2_1}>sec-img 1</a>
+                          <a href={sec_2_1} target='blank'>sec-img 1</a>
                           <span  className='arrow'><a href={sec_2_1} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
       
                          <li>
-                          <a href={sec_2_2}>sec-img 2</a>
+                          <a href={sec_2_2} target='blank'>sec-img 2</a>
                           <span className='arrow'><a href={sec_2_2} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
       
                          <li className='last'>
-                          <a href={sec_2_3}>sec-img 3</a>
+                          <a href={sec_2_3}  target='blank'>sec-img 3</a>
                           <span  className='arrow'><a href={sec_2_3} download className='dicon'>
                             <MdDownload /></a></span>
                          </li>
